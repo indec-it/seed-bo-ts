@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 7px 0;
+  div.row > div {
+    margin-top: 7px;
+    color: $primary-color-light;
+  }
+  .version {
+    margin-top: -3px;
+    font-size: 10px;
+  }
+  .texts, .version {
+    color: #fff;
+  }
+  a {
+    color: $accent-color;
+    &:hover {
+      color: $white-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.texts-signin, .version {
+  margin-bottom: 10px;
+  font-size: 12px;
+}

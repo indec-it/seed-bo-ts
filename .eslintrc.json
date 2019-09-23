@@ -1,0 +1,76 @@
+{
+    "extends": ["airbnb", "plugin:@typescript-eslint/recommended"],
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
+    "rules": {
+      "import/no-extraneous-dependencies": [
+        "off"
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "eol-last": [
+        "error"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "import/no-unresolved": 0,
+      "react/jsx-filename-extension": [1, {
+          "extensions": [
+            ".jsx",
+            ".tsx"
+          ]
+        }
+      ],
+      "react/jsx-tag-spacing": [
+        "error",
+        {
+          "beforeSelfClosing": "never"
+        }
+      ],
+      "react/jsx-indent": [
+        "error",
+        4
+      ],
+      "react/jsx-indent-props": [
+        "error",
+        4
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "max-len": [
+        "error",
+        120
+      ],
+    "react/destructuring-assignment": "off",
+    "react/static-property-placement": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "specialLink": [],
+        "aspects": [
+          "noHref",
+          "invalidHref",
+          "preferButton"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off"
+    }
+  }

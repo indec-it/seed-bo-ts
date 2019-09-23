@@ -1,0 +1,14 @@
+.homeRoot {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    .homeWelcome {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+}

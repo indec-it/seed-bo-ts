@@ -1,0 +1,23 @@
+.logo-svg {
+  display: flex;
+  flex-direction: row;
+  margin: 3px 0;
+  .logo-txt {
+    margin: 2px 5px 0 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8.5px;
+    color: #fff;
+    text-align: right;
+  }
+  .vanilla {
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 25px;
+    img {
+      width: 80px;
+      height: 27px;
+      margin: 6px 0 0 20px;
+    }
+  }
+}

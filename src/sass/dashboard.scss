@@ -1,0 +1,66 @@
+.central-number {
+  font-size: 2.5rem;
+}
+
+.curve-tl {
+  border: solid 10px #e2aac6;
+  border-radius: 30px;
+}
+
+.curve-bl {
+  border: 1px solid #e2aac6;
+}
+
+.curve-tr {
+  border: 1px solid #76bbb6;
+}
+
+.curve-br {
+  border: 1px solid #76bbb6;
+}
+
+$cyan: rgba(2, 141, 200, 1);
+$violet: #222983;
+$magenta: #dc0068;
+$gray: #58565a;
+
+// complementary colors
+$light-gray: rgba(225, 225, 225, 1);
+$black: #000;
+$white: #fff;
+
+$state-selected: rgba(27, 83, 120, 1);
+$state-without-data: $light-gray;
+$state-with-data: $cyan;
+
+.legend {
+  padding-left: 0;
+  font-size: 12px;
+  list-style: none;
+
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  span {
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin: 2px;
+    margin-right: 5px !important;
+
+    // map colors
+    &.state-selected {
+      background-color: $state-selected;
+    }
+
+    &.state-without-data {
+      background-color: $state-without-data;
+    }
+
+    &.state-with-data {
+      background-color: $state-with-data;
+    }
+  }
+}

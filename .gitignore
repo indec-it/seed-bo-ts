@@ -1,0 +1,10 @@
+**/.*/
+node_modules/
+files/
+dist/
+coverage/
+build/
+
+# misc
+.DS_Store
+*.log

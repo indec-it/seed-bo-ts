@@ -1,0 +1,47 @@
+.table-width {
+  width: 95%;
+  border: 1px solid;
+}
+
+thead {
+  th {
+    height: 30px;
+  }
+}
+
+.number-column, .text-column {
+  padding: 8px;
+  border: 1px solid;
+}
+
+.number-column {
+  width: 6%;
+}
+
+.text-column {
+  width: 12%;
+}
+
+.data-align-top {
+  vertical-align: top;
+}
+
+.data-align-bottom {
+  vertical-align: bottom;
+}
+
+.empty {
+  height: 70px;
+}
+
+.empty-block {
+  height: 40px;
+}
+
+.description {
+  padding: 8px;
+}
+
+.table-header-bg {
+  background-color: #eee;
+}

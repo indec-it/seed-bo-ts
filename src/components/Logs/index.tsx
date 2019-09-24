@@ -1,3 +1,3 @@
 import * as React from 'react';
 
-export default () => (<div> Logs </div>);
+export default (): React.ReactNode => (<div> Logs </div>);

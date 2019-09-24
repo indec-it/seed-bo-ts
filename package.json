@@ -1,7 +1,7 @@
 {
   "name": "seed-bo-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "SEED-BO-TS",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

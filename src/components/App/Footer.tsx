@@ -4,6 +4,7 @@ import UserService from '~services/user';
 import { UserInterface } from '~models/index';
 
 declare const VERSION: string;
+declare const DESCRIPTION: string;
 
 const Footer = (): React.ReactNode => {
     const session: UserInterface = UserService.getSession();
@@ -20,7 +21,7 @@ const Footer = (): React.ReactNode => {
                 </Col>
                 <Col sm={12} md={3}/>
                 <Col sm={12} md={3} className="justify-content-center align-self-center text-right">
-                    <h6>ETI - Encuesta Turismo Internacional</h6>
+                    <h6>{DESCRIPTION}</h6>
                 </Col>
             </Row>
         </footer>

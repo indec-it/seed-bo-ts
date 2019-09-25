@@ -12,7 +12,7 @@ const {
     AUTH_LOGIN
 } = process.env;
 
-const { version, description } = require('./package.json');
+const { version, description, name } = require('./package.json');
 
 const isProduction = typeof NODE_ENV !== 'undefined' && NODE_ENV === 'production';
 const mode = NODE_ENV;
@@ -122,6 +122,7 @@ module.exports = {
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
             DESCRIPTION: JSON.stringify(description),
+            NAME: JSON.stringify(name),
             VERSION: JSON.stringify(version),
             ENDPOINT: JSON.stringify(ENDPOINT),
             AUTH_ENDPOINT: JSON.stringify(AUTH_ENDPOINT),
